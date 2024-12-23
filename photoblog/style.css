@@ -95,9 +95,7 @@ ul{
 .nav-title{
     padding-bottom: 17px;
 }
-.picture{
-    padding-top: 50px;
-}
+
 .team{
     padding-top: 185px;
 }
@@ -128,4 +126,83 @@ h2{
 }
 .tel{
     padding-bottom: 60px;
+}
+.navigation-list{
+    display: flex;
+}
+div{
+    display: flex;
+    align-items: center;
+}
+.logotype{
+    padding-right: 80px;
+    
+}
+.navigation{
+    padding-right: 50px;
+    
+}
+#gmail{
+    padding-left: 250px;
+    padding-right: 50px;
+    
+}
+.nav-site{
+    text-align: center;
+}
+.features{
+    display: flex;
+}
+.block{
+    padding-right: 160;
+}
+.nav-title{
+    font-size: 14px;
+    padding-right: 150px;
+}
+.features li p{
+    font-size: 14px;
+    padding-right: 50px;
+}
+.work h1{
+    text-align: center;
+    padding-bottom: 50px;
+}
+.work ul{
+    display: flex;
+}
+.work ul li{
+    padding-right: 30px;
+}
+.team{
+    text-align: center;
+    padding-bottom: 50px;
+}
+.people ul{
+    display: flex;
+}
+.people ul li img{
+    width: 270px;
+    padding-right: 30px;
+}
+.people ul li h2{
+    padding-right: 180px ;
+    font-size: 16px;
+}
+.people ul li p{
+    padding-right: 150px;
+    font-size: 16px;
+
+}
+.nav-buttons{
+   display: flex;
+}
+.nav-buttons li img{
+    padding-right: 30px;
+}
+.nav-buttons li{
+    text-align: center;
+}
+.nav{
+    padding-left: 310px;
 }

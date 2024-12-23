@@ -11,19 +11,21 @@
 </head>
 <body>
     <header class="container">
-        <img class="logotype" src="/img/WebStudio2.png" alt="">
+        <div><img class="logotype" src="/img/WebStudio2.png" alt="">
         <ul class="navigation-list">
             <li><a class="navigation" href="/Студія">Студія</a></li>
             <li><a class="navigation" href="/Портфоліо">Портфоліо</a></li>
             <li><a class="navigation" href="/Конткати">Конткати</a></li>
-            <address ><a class="gmail" href="info@devstudio.com">info@devstudio.com</a></address>
+            <address ><a class="gmail" id="gmail" href="info@devstudio.com">info@devstudio.com</a></address>
             <address><a href="tel:+38 096 111 11 11">+38 096 111 11 11</a></address>
         </ul>  
+    </div>
     
             <ul class="nav-site">
             <h1 class="title">Ефективні рішення для вашого бізнесу</h1>
             <li class="nav-button"><button class="button">Замовити послугу</button></li>
              </ul>
+             <ul class="features">
                 <li class="block">
                 <h1 class="nav-title">УВАГА ДО ДЕТАЛЕЙ</h1>
                 <p class="text">
@@ -47,19 +49,20 @@
     </header>
     <main>
       
-        <ul class="container">
+        <ul class="container work">
            <li>
             <h1 class="block">Чим ми займаємося</h1>
             </li>
-            <li class="picture">
-                <img src="/img/computer.jpg" alt="">       
-            </li>
+            <ul>
+            <li> <img src="/img/computer.jpg" alt=""></li>
             <li><img src="/img/phone.png" alt=""></li>
             <li><img src="/img/paint.png" alt=""></li>
+             </ul>
         </ul>
-        <ul class="container">
+        <ul class="container people">
             <li class="team"><h1>Наша команда</h1></li> 
-            <li class="picture"><img src="/img/glases.jpg" alt="">
+            <ul>
+            <li><img src="/img/glases.jpg" alt="">
                 <h2>Ігор Дем'яненко</h2>
                 <p class="text">Product Designer</p>
             </li>
@@ -77,6 +80,7 @@
                 <h2>Михайло Єрмаков</h2>
                 <p class="text">UI Designer</p>
             </li>
+        </ul>
         </ul>
     </main>
     <footer class="container">
